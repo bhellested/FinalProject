@@ -1,0 +1,13 @@
+[
+  "objectify6",
+  "clouddns",
+  "clouddatastore",
+  "cloudscheduler",
+  "stackdrivertrace",
+  "googlecloudspanner",
+  "googlecloudstorage",
+  "stackdrivermonitoring",
+  "stackdrivererrorreporting",
+  "cloudasset",
+  "stackdriverlogging"
+]
