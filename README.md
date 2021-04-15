@@ -23,3 +23,5 @@ invertedIndex.java is the hadoop job, the jar can be found on my cloud storage b
 projectFrame.java contains my GUI, however the included projectFrame.jar is all you need to run
 This jar packages all needed GCP imports.
 
+If planning on running yourself, you will need to move invertedIndex.jar into a bucket and update the bucket references in projectFrame.java
+
