@@ -1,5 +1,6 @@
 # Final Project For CS1660
 (JTables were used to display results)
+
 To build, first clone this repo and add your json credentials into the directory.
 Next execute:
   docker build -t hellestedfinalproject .
