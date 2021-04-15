@@ -70,10 +70,6 @@ public class projectFrame {
 
     public static void main(String[] args) {
 
-        // make window object
-        // projectFrame GUI = new projectFrame();
-        // GUI.init(); // init all our things!
-
         // set window object size
         f.setSize(800, 450);
         // GUI.setTitle("Brian Hellested Final Project");
@@ -182,9 +178,6 @@ public class projectFrame {
         	}
         	i++;
         }
-//        for(int j=0;j<names.size();j++ ) {//workaround for table names
-//        	data[0][j]=names.get(j);
-//        }
         j = new JTable(data, names.toArray());
         
         
@@ -209,59 +202,6 @@ public class projectFrame {
     	    frame.setLocationRelativeTo(null);
     	
     	
-//        f.getContentPane().removeAll();
-//        f.revalidate();
-//        f.repaint();
-//        // add label
-//        label.setText(
-//                String.format("<html><body style=\"text-align: center;  text-justify: center;\">%s</body></html>",
-//                        "Search Results:"));
-//        label.setBounds(350, 50, 150, 75);        
-//        if (arr==null) {
-//        	
-//        }
-//        else {
-//        	ArrayList<String> names=new ArrayList<String>();
-//        	names.add("Search Term:");
-//        	names.add("total");
-//        	for (String s : localPath) {
-//        		names.add(s);
-//        	}
-//        
-//        String[][] data= new String[2][names.size()];
-//        data[1][0]=t.getText();
-//        data[1][1]=arr.get(0);
-//        int i=2;
-//        for(String s:localPath) {
-//        	int index=arr.indexOf(s);
-//        	if (index!=-1) {
-//        		data[1][i]=arr.get(index+1);
-//        	}
-//        	i++;
-//        }
-//        for(int j=0;j<names.size();j++ ) {//workaround for table names
-//        	data[0][j]=names.get(j);
-//        }
-//        j = new JTable(data, names.toArray());
-//
-//        j.setBounds(100, 100, 600, 100);
-//
-//        f.add(j);
-//        f.setVisible(true);
-//        }
-//        
-//        
-//
-//        back = new JButton("Back to Search");
-//        back.setBounds(0, 0, 150, 30);
-//        back.addActionListener(listener);
-//        back.setActionCommand("back");
-//        
-//        f.add(back);
-//        f.add(label);
-//        f.add(back);
-//        f.repaint();
-//        //f.add(t);
     }
 
     public static void dispayTopNPage() {
@@ -323,41 +263,6 @@ public class projectFrame {
     	    frame.add(p);
     	    //frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
     	    frame.setLocationRelativeTo(null);
-//        f.getContentPane().removeAll();
-//        f.revalidate();
-//        f.repaint();
-//        
-//        
-//
-//
-//        // add label
-//        label.setText(
-//                String.format("<html><body style=\"text-align: center;  text-justify: center;\">%s</body></html>",
-//                        "Top "+ t.getText()+ " Values"));
-//        label.setBounds(350, 100, 150, 75);
-//        String[][] data= new String[Integer.parseInt(t.getText())][2];
-//        for(int i=0;i<Integer.parseInt(t.getText());i++) {
-//        	data[i][0]=sorted.get(i).word;
-//        	data[i][1]=sorted.get(i).count.toString();
-//        }
-//        //t.setBounds(350, 200, 150, 75);
-//        String[] headers= {"word","count"};
-//        j = new JTable(data, headers);
-//
-//        j.setBounds(100, 100, 600, 100);
-//        //need to get this scrollable.
-//
-//        f.setVisible(true);
-//
-//        
-//        back = new JButton("Back to Top N");
-//        back.setBounds(0, 0, 150, 30);
-//        back.addActionListener(listener);
-//        back.setActionCommand("back");
-//        
-//
-//        f.add(label);
-//        f.add(back);
     }  
 
     public static void doHadoopJob(String projectId, String region, String clusterName)
@@ -438,9 +343,7 @@ public class projectFrame {
                 } else {
                     System.out.println("the user has exited the file dialog");
                 }
-//                for (String s : fileArray) {
-//                    System.out.println(s);
-//                }
+
 
             }
             if (e.getActionCommand().equals("loadEngine")) {
